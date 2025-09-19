@@ -43,7 +43,7 @@
 .modal-content{background:white;border-radius:12px;max-width:900px;width:100%;display:flex;gap:18px;padding:18px}
 .modal-content img{width:48%;height:auto;border-radius:8px;object-fit:cover}
 .modal-info{padding:6px 8px}
-.close{background:transparent;border:0;font-size:36px;position:absolute;right:22px;top:14px;cursor:pointer;color:#fff}
+.close{background:transparent;color:transparent;border:0;font-size:36px;position:absolute;right:22px;top:14px;cursor:pointer}
 #modalPrice{font-weight: 700;color: #555;}
 /* Footer */
 .site-footer{padding:18px;text-align:center;color:#666;margin-top:28px}

@@ -53,7 +53,7 @@
 #backToTop:hover{background-color: #222;transition: ease-in-out 0.2s;}
 /* Responsive tweaks */
 @media (max-width:700px){
-  .site-header{flex-wrap: wrap;gap: 6px; justify-content: space-between;}
+  .site-header{flex-wrap: wrap;gap: 6px; justify-content: space-between;margin-bottom: auto;}
   .nav-actions{align-items: center; justify-content: center; justify-self: center; margin-left:auto;}
   .nav-actions input{padding:5px 6px;min-width:110px}
   .nav-actions button{padding:5px 6px;}

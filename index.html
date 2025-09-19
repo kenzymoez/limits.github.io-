@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Limits — Interior Ideas</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="logo.jpeg" >
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <img src="logo.jpeg" alt="Limits Architect & Interior Design logo" class="logo"/>
+      <div class="brand-text">
+        <h1>Limits</h1>
+        <p>Architect & Interior Design</p>
+      </div>
+    </div>
+    <nav class="nav-actions">
+      <input id="search" placeholder="e.g. kitchen, bedroom..." />
+      <button id="filterBtn">Search</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-inner">
+        <h2>Explore interior design ideas</h2>
+        <p>Curated product and styling suggestions to inspire your next space.</p>
+      </div>
+      <!-- <div class="hero-cta">
+        <button id="viewAll">View All Ideas</button>
+      </div> -->
+    </section>
+
+    <section class="products" id="products">
+      <!-- product cards injected by JS -->
+    </section>
+  </main>
+
+  <template id="cardTemplate">
+    <article class="card">
+      <div class="card-media">
+        <img class="prod-img" alt="product image"/>
+      </div>
+      <div class="card-body">
+        <h3 class="prod-title"></h3>
+        <p class="prod-desc"></p>
+        <div class="card-meta">
+          <span class="price"></span>
+          <button class="detailsBtn">Details</button>
+        </div>
+      </div>
+    </article>
+  </template>
+
+  <!-- Modal -->
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button id="closeModal" class="close">×</button>
+      <img id="modalImg" alt="large product image"/>
+      <div class="modal-info">
+        <h3 id="modalTitle"></h3>
+        <p id="modalDesc"></p>
+        <p class="modal-price" id="modalPrice"></p>
+      </div>
+    </div>
+  </div>
+  <!-- Back to Top Button  -->
+ <a href="#top" id="backToTop">↑</a>
+  <footer class="site-footer">
+    <small>© 2025 Limits — Architect & Interior Design</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
